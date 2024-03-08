@@ -19,84 +19,32 @@ http://31.220.41.88:8081/live/us-cinemax.stream/playlist.m3u8
 https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
 #EXTINFgroup-title="iptv" tvg-id="",Cult Classic Movie Theater (1080p)
 https://app.viloud.tv/hls/channel/053140e08adc29e3eac61eb05ff12f51.m3u8
-#EXTINFgroup-title="iptv" tvg-id="DareToDreamNetwork.us",Dare To Dream Network (3ABN) (720p)
-https://3abn-live.akamaized.net/hls/live/2010545/D2D/master.m3u8
 #EXTINFgroup-title="iptv" tvg-id="Dateline247.us",Dateline 24/7
 https://dz59iptwz5rxs.cloudfront.net/live/master.m3u8
 #EXTINFgroup-title="iptv" tvg-id="DaystarTV.us",Daystar TV (720p)
 https://hls-live-media.cdn01.net/dvr/stream_37099_1.m3u8
-#EXTINFgroup-title="iptv" tvg-id="DerakhteZendegiTV.us",Derakhte Zendegi TV (404p)
-http://iran620.com:1935/derakhte-zendegi/test/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="DMTV.us",Del Mar TV (720p)
-https://d25ykpi2vxhoyc.cloudfront.net/delmar-cdn/dmtv/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="",Delicioso [Geo-blocked]
-https://unidfp-nlds139.global.ssl.fastly.net/nlds/univisionnow/cocina2/as/live/cocina2_hd_pc.m3u8?t1=
-#EXTINFgroup-title="iptv" tvg-id="",Despierta [Geo-blocked]
-https://unidfp-nlds140.global.ssl.fastly.net/nlds/univisionnow/challenge28/as/live/challenge28_hd_pc.m3u8?t1=
-#EXTINFgroup-title="iptv" tvg-id="DrGeneScott.us",Dr. Gene Scott (1080p)
-https://wescottcc.piksel.tech/hls/live/2041478/adp/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="DrGeneScott.us",Dr. Gene Scott (480p)
-https://wescottcc.piksel.tech/Manifest/UTB-NetworkStream.m3u8
-#EXTINFgroup-title="iptv" tvg-id="",Duck Hunting TV
-https://main.duckhunting.playout.vju.tv/duckhuntingtv/main.m3u8
 #EXTINFgroup-title="iptv" tvg-id="EarthxTV.us",EarthxTV (720p)
 https://ov.ottera.tv/live/master.m3u8?channel=earth_et
-#EXTINFgroup-title="iptv" tvg-id="ElMaqar.us",El Maqar (1080p)
-http://135.181.79.179/ElmaqarTVHD/playlist.m3u8?token=mobileuser
-#EXTINFgroup-title="iptv" tvg-id="ElSegundoMedia.us",El Segundo Media (360p)
-https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/elsegundo/G0014_002/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="ElbesharaGTV.us",Elbeshara GTV (1080p) [Not 24/7]
-http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="ElectricNow.us",Electric Now (1080p) [Not 24/7]
 https://elec-en.otteravision.com/elec/en/elec_en.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EMTMediaTV.us",EMT Media TV
-https://hls-cdn.tvstartup17.net/tvstartup17-channel/live/mp4:emtmediaedge/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="EntertainmentTonight.us",Entertainment Tonight (720p)
 https://cbsta49f-cbsta49f-ms.global.ssl.fastly.net/amagi7b98-AmagiMixible/master/amagi7b98-AmagiMixible.m3u8
-#EXTINFgroup-title="iptv" tvg-id="",ESR 24x7 eSports Network (1080p)
-https://eyeonesports.com/ES2RA-628g.m3u8
 #EXTINFgroup-title="iptv" tvg-id="EternalLifeTVNetwork.us",Eternal Life TV Network (1080p)
 https://livecdn.live247stream.com/eternallife/tv/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EVTVMiami.us",EVTV Miami (720p) [Not 24/7]
-https://streannliveevtv.cachefly.net/Protected/sp=1;dirmatch=true/3be25dc13406bf70ff0208230e6fa803b88b95013fad257c025e481e2be3e214/evtv1/evtv1/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EWTNAfricaAsia.us",EWTN Africa Asia (720p)
-https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/live/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EWTNAsiaPacific.us",EWTN Asia-Pacific (720p) [Not 24/7]
-https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EWTNCanada.ca",EWTN Canada (720p) [Not 24/7]
-https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EWTNEspanaLatinAmerica.us",EWTN el Canal Católico (720p) [Not 24/7]
-https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EWTNEstadosUnidos.us",EWTN Estados Unidos (Spanish) (720p)
-https://cdn3.wowza.com/1/TUI5dU5ucnUxdGFD/ZFlVeGRl/hls/live/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EWTNEurope.us",EWTN Europe (720p) [Not 24/7]
-https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EWTN.us",EWTN United States (720p)
-https://cdn3.wowza.com/1/QjRzVXJtVml5SUVx/WGJRSWxz/hls/live/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="ExtremaTV.us",Extrema TV (720p)
 http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EYE95America.us",EYE95 America (1080p) [Not 24/7]
-https://cdn20.liveonlineservices.com/hls/eye95tv.m3u8
-#EXTINFgroup-title="iptv" tvg-id="FastwayNews.us",FASTWAY NEWS (720p) [Not 24/7]
-http://163.47.214.155:1935/fwnews/live/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="FightSports.us",FIGHT SPORTS (1080p)
 https://shls-fight-sports-ak.akamaized.net/out/v1/ee7e6475b12e484bbfa5c31461ad4306/index.m3u8
 #EXTINFgroup-title="iptv" tvg-id="Fite.us",Fite (720p) [Not 24/7]
 https://cdn-cf.fite.tv/linear/fite247/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="FolkTV.us",Folk TV
 http://584b0aa350b92.streamlock.net:1935/folk-tv/myStream.sdp/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="FolkTV.us",Folk TV East (480p) [Not 24/7]
-https://584b0aa350b92.streamlock.net/folk-tv/myStream.sdp/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="FoxNewsChannel.us",Fox News Channel
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
 #EXTINFgroup-title="iptv" tvg-id="FoxWeather.us",Fox Weather (720p)
 https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINFgroup-title="iptv" tvg-id="FreeSpeechTV.us",Free Speech TV (720p)
 https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8
-#EXTINFgroup-title="iptv" tvg-id="FunRoads.us",Fun Roads (404p)
-http://104.143.4.5:2080/funroads.m3u8
-#EXTINFgroup-title="iptv" tvg-id="",Fútbol [Geo-blocked]
-https://unidfp-nlds153.global.ssl.fastly.net/nlds/univisionnow/futbol/as/live/futbol_hd_pc.m3u8?t1=
 #EXTINFgroup-title="iptv" tvg-id="GalavisionEast.us",Galavisión East [Geo-blocked]
 https://unidfp-nlds159.global.ssl.fastly.net/nlds/univisionnow/galavision_east/as/live/galavision_east_hd_pc.m3u8?t1=
 #EXTINFgroup-title="iptv" tvg-id="GalavisionWest.us",Galavision West [Geo-blocked]
@@ -630,33 +578,10 @@ https://rpn1.bozztv.com/36bay2/gusa-tvstravel/index.m3u8
 https://rpn1.bozztv.com/36bay2/gusa-tvsturbo/index.m3u8
 #EXTINFgroup-title="iptv" tvg-id="TVSWesternMovie.us",TVS Western Movie (270p)
 https://rpn1.bozztv.com/36bay2/gusa-tvswesternmovies/index.m3u8
-#EXTINFgroup-title="iptv" tvg-id="TVSWomenSports.us",TVS Women Sports (720p)
-https://rpn1.bozztv.com/36bay2/gusa-tvswsn/index.m3u8
-#EXTINFgroup-title="iptv" tvg-id="UNWebTV.us",UN Web TV (540p)
-https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
-#EXTINFgroup-title="iptv" tvg-id="UniMasEast.us",UniMás East [Geo-blocked]
-https://unidfp-nlds164.global.ssl.fastly.net/nlds/univisionnow/unimas_east2/as/live/unimas_east2_hd_pc.m3u8?t1=
 #EXTINFgroup-title="iptv" tvg-id="UnivisionEast.us",Univision East [Geo-blocked]
 https://unidfp-nlds155.global.ssl.fastly.net/nlds/univisionnow/univision_east2/as/live/univision_east2_hd_pc.m3u8?t1=
-#EXTINFgroup-title="iptv" tvg-id="VallenatoInternacional.us",Vallenato Internacional (720p) [Not 24/7]
-https://59a564764e2b6.streamlock.net/vallenato/Vallenato2/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="VBSTV.us",VBS TV (480p) [Not 24/7]
-http://uni6rtmp.tulix.tv:1935/vbstv/vbsabr.smil/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="VelayatTVNetwork.us",Velayat TV (480p)
-https://nl.livekadeh.com/hls2/velayattv.m3u8
-#EXTINFgroup-title="iptv" tvg-id="VICETV.us",Vice East
-https://d2do1g43aq7264.cloudfront.net/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="VictorValleyTV.us",Victor Valley Movies (1080p) [Not 24/7]
 https://2-fss-1.streamhoster.com/pl_122/201794-1414514-1/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="WHOHTV.us",Village of Hastings-On-Hudson NY (WHOH-TV) (360p)
-https://stream.swagit.com/live-edge/hastingsonhudsonny/smil:std-4x3-1-a/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="VoATV.us",VOA TV Africa (1080p)
-https://voa-ingest.akamaized.net/hls/live/2033874/tvmc06/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="VoATVPersian.us",VOA Persian
-https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="VSiN.us",VSiN (720p)
-https://stream.rcncdn.com/live/vsinproxy.m3u8
-#EXTINFgroup-title="iptv" tvg-id="W14DKD1.us",W14DK-D 14.1 TV Delmarva
 https://2-fss-2.streamhoster.com/pl_118/amlst:204972-1949480/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="W14DKD2.us",W14DK-D 14.2 NEWSNET
 https://2-fss-2.streamhoster.com/pl_118/204972-1954106-1/playlist.m3u8
