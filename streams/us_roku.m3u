@@ -5,8 +5,6 @@ pipe:///usr/bin/ffmpeg -loglevel fatal -i https://p1media-americasvoice-1.roku.w
 pipe:///usr/bin/ffmpeg -loglevel fatal -i https://circle-roku.amagi.tv/playlist.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 #EXTINF:-1 tvg-id="MovieSphere.us",MovieSphere (1080p)
 pipe:///usr/bin/ffmpeg -loglevel fatal -i https://moviesphere-roku.amagi.tv/hls/amagi_hls_data_lionsgate-moviesphere-roku-us/CDN/playlist.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
-#EXTINF:-1 tvg-id="MovieSphere.us",MovieSphere (1080p)
-https://moviesphere-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MST3K.us",MST3K (1080p)
 pipe:///usr/bin/ffmpeg -loglevel fatal -i https://mst3k-roku.amagi.tv/playlist.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 #EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us",MyTime Movie Network (1080p)
