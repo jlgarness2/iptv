@@ -14,4 +14,11 @@ pipe:///usr/bin/ffmpeg -loglevel fatal -i https://mytime-roku-ingest.cinedigm.co
 #EXTINF:-1 tvg-id="TheCarolBurnettShow.us",The Carol Burnett Show (1080p)
 pipe:///usr/bin/ffmpeg -loglevel fatal -i https://carolburnett-roku.amagi.tv/playlist.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
+#EXTINFgroup-title="iptv" tvg-id="Comet.us",Comet (720p)
+pipe:///usr/bin/ffmpeg -loglevel fatal -i https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+#EXTINFgroup-title="iptv" tvg-id="TCMEast.us",TCM East (Adaptive) (720p) [Geo-blocked]
+pipe:///usr/bin/ffmpeg -loglevel fatal -i https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-10_23_us/streams/us/TCMEast.us.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINFgroup-title="iptv" tvg-id="AMCEast.us",AMC East (1080p)
+pipe:///usr/bin/ffmpeg -loglevel fatal -i https://bcovlive-a.akamaihd.net/94e1185924514d0694019d24cfca7121/us-east-1/6240731308001/playlist.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
