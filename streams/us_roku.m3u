@@ -46,8 +46,7 @@ pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/a_e.m3u8 -
 
 
 #EXTINF:-1 channel-id="frndly-33" tvg-id="frndly-33" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/wsmluu.png" tvc-guide-stationid="14771",HISTORY
-pipe:///usr/bin/ffmpeg -loglevel fatal -i 
-http://172.16.1.2:8183/play/history.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/history.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
 
 #EXTINF:-1 channel-id="frndly-1" tvg-id="frndly-1" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/rfbdrn.png" tvc-guide-stationid="66268",Hallmark Channel
@@ -59,35 +58,27 @@ pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/hallmark_m
 
 
 #EXTINF:-1 channel-id="frndly-15" tvg-id="frndly-15" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/xhzttu.png" tvc-guide-stationid="66143",UPtv
-pipe:///usr/bin/ffmpeg -loglevel fatal -i 
-http://172.16.1.2:8183/play/up_tv.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/up_tv.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
 #EXTINF:-1 channel-id="frndly-17" tvg-id="frndly-17" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/prpzfo.png" tvc-guide-stationid="82773",INSP
-pipe:///usr/bin/ffmpeg -loglevel fatal -i 
-http://172.16.1.2:8183/play/insp.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/insp.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
 #EXTINF:-1 channel-id="frndly-30" tvg-id="frndly-30" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/lrflaq.png" tvc-guide-stationid="82892",Great American Family
-pipe:///usr/bin/ffmpeg -loglevel fatal -i 
-http://172.16.1.2:8183/play/great_american_family.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/great_american_family.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
 #EXTINF:-1 channel-id="frndly-3" tvg-id="frndly-3" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/hallmark-drama.png" tvc-guide-stationid="105723",Hallmark Drama
-pipe:///usr/bin/ffmpeg -loglevel fatal -i 
-http://172.16.1.2:8183/play/hallmark_drama.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/hallmark_drama.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
 #EXTINF:-1 channel-id="frndly-48" tvg-id="frndly-48" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/skjrxz.png" tvc-guide-stationid="122695",Start TV
-pipe:///usr/bin/ffmpeg -loglevel fatal -i 
-http://172.16.1.2:8183/play/start_tv.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/start_tv.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
 #EXTINF:-1 channel-id="frndly-46" tvg-id="frndly-46" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/lvfype.png" tvc-guide-stationid="122694",Catchy Comedy
-pipe:///usr/bin/ffmpeg -loglevel fatal -i 
-http://172.16.1.2:8183/play/catchy_comedy.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/catchy_comedy.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
 #EXTINF:-1 channel-id="frndly-29" tvg-id="frndly-29" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/eicfzw.png" tvc-guide-stationid="90858",Great American Living
-pipe:///usr/bin/ffmpeg -loglevel fatal -i 
-http://172.16.1.2:8183/play/great_american_living.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/great_american_living.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
 #EXTINF:-1 channel-id="frndly-32" tvg-id="frndly-32" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/fyi.png" tvc-guide-stationid="58988",FYI
-pipe:///usr/bin/ffmpeg -loglevel fatal -i 
-http://172.16.1.2:8183/play/fyi.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+pipe:///usr/bin/ffmpeg -loglevel fatal -i  http://172.16.1.2:8183/play/fyi.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
 
