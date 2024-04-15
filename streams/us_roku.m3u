@@ -32,3 +32,8 @@ pipe:///usr/bin/ffmpeg -loglevel fatal -i https://content.uplynk.com/channel/37e
 https://bcovlive-a.akamaihd.net/7304338dca7a4c91b8f0504de0342687/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="TheFilmDetective.us",The Film Detective (720p)
 https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
+
+#EXTINF:-1 channel-id="frndly-54" tvg-id="frndly-54" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/dpvwtw.png" tvc-guide-stationid="81275",MOVIES!
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/movies_.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
