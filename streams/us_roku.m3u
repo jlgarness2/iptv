@@ -36,4 +36,17 @@ https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
 #EXTINF:-1 tvg-id="frndly-54" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/dpvwtw.png" tvc-guide-stationid="81275",MOVIES!
 pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/movies_.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
+#EXTINF:-1 channel-id="frndly-45" tvg-id="frndly-45" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/story-tv.png" tvc-guide-stationid="122968",Story Television
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/story_tv.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="frndly-82" tvg-id="frndly-82" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/bkmyhz.png" tvc-guide-stationid="119266",MeTV+
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/me_tv_plus.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+
+#EXTINF:-1 channel-id="frndly-47" tvg-id="frndly-47" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/wwkont.png" tvc-guide-stationid="120460",Heroes & Icons
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/heroes___icons.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
 
