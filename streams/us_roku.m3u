@@ -81,4 +81,165 @@ pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:8183/play/great_amer
 #EXTINF:-1 channel-id="frndly-32" tvg-id="frndly-32" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/fyi.png" tvc-guide-stationid="58988",FYI
 pipe:///usr/bin/ffmpeg -loglevel fatal -i  http://172.16.1.2:8183/play/fyi.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
 
+#EXTINF:-1 channel-id="frndly-22" tvg-id="frndly-22" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/ougvvc.png" tvc-guide-stationid="73413",FETV
+pipe:///usr/bin/ffmpeg -loglevel fatal -i  http://172.16.1.2:8183/play/fetv.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="frndly-4" tvg-id="frndly-4" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/pixl.png" tvc-guide-stationid="70113",Pixl
+pipe:///usr/bin/ffmpeg -loglevel fatal -i  http://172.16.1.2:8183/play/pixl.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+
+#EXTINF:-1 channel-id="frndly-42" tvg-id="frndly-42" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/gstfyt.png" tvc-guide-stationid="122068",Family Movie Classics
+pipe:///usr/bin/ffmpeg -loglevel fatal -i  http://172.16.1.2:8183/play/family_movie_channel.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+
+#EXTINF:-1 channel-id="frndly-53" tvg-id="frndly-53" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/omzaxy.png",Cowboy Way
+pipe:///usr/bin/ffmpeg -loglevel fatal -i  http://172.16.1.2:8183/play/cowboy_way.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+
+
+#EXTINF:-1 channel-id="frndly-38" tvg-id="frndly-38" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/kgiodq.png",Dove Channel
+pipe:///usr/bin/ffmpeg -loglevel fatal -i  http://172.16.1.2:8183/play/dove_channel.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="frndly-50" tvg-id="frndly-50" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/otepbr.png",Dove Family Movies
+pipe:///usr/bin/ffmpeg -loglevel fatal -i  http://172.16.1.2:8183/play/dove_movies.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+
+
+#EXTINF:-1 channel-id="frndly-16" tvg-id="frndly-16" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/frndlytv/400/400/content/common/logos/channel/logos/etdcev.png" tvc-guide-stationid="110951",Curiosity Channel 
+pipe:///usr/bin/ffmpeg -loglevel fatal -i  http://172.16.1.2:8183/play/curiositystream.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 tvg-id="24HourFreeMovies.us",24 Hour Free Movies (720p) [Not 24/7]
+pipe:///usr/bin/ffmpeg -loglevel fatal -i  https://d15690s323oesy.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-Plex2/145.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 tvg-id="Crackle.us",Crackle (720p)
+pipe:///usr/bin/ffmpeg -loglevel fatal -i https://crackle-plex.amagi.tv/playlist.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 tvg-id="DarkMatterTV.us",Dark Matter TV (720p)
+pipe:///usr/bin/ffmpeg -loglevel fatal -i https://dmtv-plex.amagi.tv/playlist.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 tvg-id="MovieSphere.us",MovieSphere (1080p)
+pipe:///usr/bin/ffmpeg -loglevel fatal -i https://moviesphere-plex.amagi.tv/playlist.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 tvg-id="PopstarTV.us",Popstar! TV (1080p) [Not 24/7]
+pipe:///usr/bin/ffmpeg -loglevel fatal -i https://linear-10.frequency.stream/dist/plex/10/hls/master/playlist.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 tvg-id="TheFilmDetective.us",The Film Detective (720p)
+pipe:///usr/bin/ffmpeg -loglevel fatal -i https://filmdetective-plex.amagi.tv/index.m3u8 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XGRV-CMS" tvg-id="xumo-99991312" tvg-logo="https://image.xumo.com/v1/channels/channel/99991312/168x168.png?type=color_onBlack" tvg-description="Gravitas Movies connects audiences to global artists and a vast catalog of Hollywood gems, ground-breaking documentaries, and hard-to-find independent films." group-title="Holiday Hub",Gravitas Movies
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991312 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XDOCPL-CMS" tvg-id="xumo-99991638" tvg-logo="https://image.xumo.com/v1/channels/channel/99991638/168x168.png?type=color_onBlack" tvg-description="Home to the world’s best documentaries -- from Academy Award winning classics and box office hits to festival darlings and cult favorites. Nonfiction storytelling at its best, curated by the best." group-title="Movies",DOCUMENTARY+
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991638 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+
+#EXTINF:-1 channel-id="XFLMHB-CMS" tvg-id="xumo-99991300" tvg-logo="https://image.xumo.com/v1/channels/channel/99991300/168x168.png?type=color_onBlack" tvg-description="Named in honor of the first woman filmmaker, Alice Movies centers and celebrates women on screen and behind the camera." group-title="Movies",Alice Movies
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991300 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XOUTSPHR-CMS" tvg-id="xumo-99951250" tvg-logo="https://image.xumo.com/v1/channels/channel/99951250/168x168.png?type=color_onBlack" tvg-description="From superheroes to the supernatural, monsters to magicians, blockbusters to cult classics, OuterSphere has your genre favorites." group-title="Horror & Sci-Fi",OuterSphere by Lionsgate
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99951250 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XDST-CMS" tvg-id="xumo-99991292" tvg-logo="https://image.xumo.com/v1/channels/channel/99991292/168x168.png?type=color_onBlack" tvg-description="The home of the unexplained and all things alien. Discover UFO sightings and real-life mysteries, mind blowing docs, investigative series, and the best of sci-fi." group-title="Horror & Sci-Fi",Alien Nation by DUST
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991292 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XASY-CMS" tvg-id="xumo-99991331" tvg-logo="https://image.xumo.com/v1/channels/channel/99991331/168x168.png?type=color_onBlack" tvg-description="Get committed to Danger, Action & Excitement! Get committed to The Asylum Movie Channel." group-title="Horror & Sci-Fi",The Asylum
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991331 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XGLWD-CMS" tvg-id="xumo-99951123" tvg-logo="https://image.xumo.com/v1/channels/channel/99951123/168x168.png?type=color_onBlack" tvg-description="Glewed TV Sci-Fi channel is FREE with thousands of hours of riveting Science Fiction movies, TV shows and documentaries that will get you glewed to your seat." group-title="Horror & Sci-Fi",GlewedTV Sci-Fi
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99951123 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XFMCR-CMS" tvg-id="xumo-99991384" tvg-logo="https://image.xumo.com/v1/channels/channel/99991384/168x168.png?type=color_onBlack" tvg-description="Like your TV packed with thrills and a side of suspense? The case you try and solve in your dreams is now streaming on Xumo Free Crime TV." group-title="Crime Tv",Xumo Free Crime TV
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991384 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XUNSMYS" tvg-id="xumo-99991680" tvg-logo="https://image.xumo.com/v1/channels/channel/99991680/168x168.png?type=color_onBlack" tvg-description="Hosted by Robert Stack, this series uses re-enactments and interviews to retell the circumstances of mysteries that remain unsolved. Covering crimes, tales of lost love, unexplained history and paranormal events." group-title="Crime Tv",Unsolved Mysteries
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991680 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XUNVCRM-CMS" tvg-id="xumo-99951245" tvg-logo="https://image.xumo.com/v1/channels/channel/99951245/168x168.png?type=color_onBlack" tvg-description="Mystery, suspense, and action culminate in these notable drama series. From the scene of the crime to the courtroom, follow along with some of your favorite stars as they fight for justice to be served." group-title="Crime Tv",Universal Crime
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99951245 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XAMCRM-CMS" tvg-id="xumo-99951246" tvg-logo="https://image.xumo.com/v1/channels/channel/99951246/168x168.png?type=color_onBlack" tvg-description="Explore the dark side of the American dream and life behind bars, featuring award-winning series American Greed and Lockup." group-title="Crime Tv",American Crimes
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99951246 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+
+#EXTINF:-1 channel-id="XRTD-CMS" tvg-id="xumo-99991357" tvg-logo="https://image.xumo.com/v1/channels/channel/99991357/168x168.png?type=color_onBlack" tvg-description="Find full episode documentaries and documentary series, covering true crime, medical, science and more." group-title="Crime Tv",Real Crime
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991357 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XFORE-CMS" tvg-id="xumo-99991367" tvg-logo="https://image.xumo.com/v1/channels/channel/99991367/168x168.png?type=color_onBlack" tvg-description="Evidence and interviews with experts help solve real crimes, disease outbreaks and accidents around the world." group-title="Crime Tv",Forensic Files
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991367 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XELNO-CMS" tvg-id="xumo-99991378" tvg-logo="https://image.xumo.com/v1/channels/channel/99991378/168x168.png?type=color_onBlack" tvg-description="Fan favorites from Electric Entertainment." group-title="Action & Drama",ElectricNOW
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991378 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XCMTV-CMS" tvg-id="xumo-99991105" tvg-logo="https://image.xumo.com/v1/channels/channel/99991105/168x168.png?type=color_onBlack" tvg-description="Bring on the funny. From classic sitcoms to family comedy series, the Xumo Free Comedy TV channel is packed full of funny TV shows that will keep you laughing (out loud)." group-title="Comedy",Xumo Free Comedy TV
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991105 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XRIFF-CMS" tvg-id="xumo-99991106" tvg-logo="https://image.xumo.com/v1/channels/channel/99991106/168x168.png?type=color_onBlack" tvg-description="Movies Made Funny! The former stars and writers of MST3K, Mike Nelson, Kevin Murphy and Bill Corbett are back, riffing on cheesy movies and educational short films." group-title="Comedy",RiffTrax
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991106 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XIFC-CMS" tvg-id="xumo-99991624" tvg-logo="https://image.xumo.com/v1/channels/channel/99991624/168x168.png?type=color_onBlack" tvg-description="Slightly Off IFC is the home of the unexpected – showcasing cult favorite sketch series and comedic masterworks from the biggest names in comedy." group-title="Comedy",Slightly Off IFC
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991624 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XBNCE-CMS" tvg-id="xumo-9999613" tvg-logo="https://image.xumo.com/v1/channels/channel/9999613/168x168.png?type=color_onBlack" tvg-description="Stream the best in Black television, including original programming and hit sitcoms and dramas." group-title="Comedy",Bounce XL
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/9999613 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XGRIT-CMS" tvg-id="xumo-99951152" tvg-logo="https://image.xumo.com/v1/channels/channel/99951152/168x168.png?type=color_onBlack" tvg-description="Featuring your favorite bold, brave and legendary action heroes like Clint Eastwood, John Wayne and James Stewart, Grit Xtra showcases classic all-American storytelling in its iconic Western movies and series." group-title="Westerns & Country",Grit Xtra
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99951152 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XCWBY-CMS" tvg-id="xumo-99951160" tvg-logo="https://image.xumo.com/v1/channels/channel/99951160/168x168.png?type=color_onBlack" tvg-description="Cowboy Way’s curated lineup highlights the lives of those with unwavering grit, and celebrates America’s tried-and-true, modern-day heroes." group-title="Westerns & Country",Cowboy Way
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99951160 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XUNVWEST-CMS" tvg-id="xumo-99951255" tvg-logo="https://image.xumo.com/v1/channels/channel/99951255/168x168.png?type=color_onBlack" tvg-description="Cowboys, gunslingers, and outlaws roam the wild west in these series. Get swept away by these classic tales of heroism and family adventure set against scenic frontier backdrops." group-title="Westerns & Country",Universal Westerns
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99951255 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XMURDSW-CMS" tvg-id="xumo-99951239" tvg-logo="https://image.xumo.com/v1/channels/channel/99951239/168x168.png?type=color_onBlack" tvg-description="Jessica Fletcher (played by the legendary Angela Lansbury) is a mystery writer whose inclination for solving crimes leads her into thrilling adventures.  Join her as she cracks the case in this Emmy®-winning drama." group-title="Classic Tv",Murder, She Wrote
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99951239 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XSHOUT-CMS" tvg-id="xumo-99991265" tvg-logo="https://image.xumo.com/v1/channels/channel/99991265/168x168.png?type=color_onBlack" tvg-description="Bringing timeless and contemporary cult favorites to pop culture fans." group-title="Classic Tv",Shout! TV
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991265 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XARC-CMS" tvg-id="xumo-99991310" tvg-logo="https://image.xumo.com/v1/channels/channel/99991310/168x168.png?type=color_onBlack" tvg-description="The Archive has hours of documentaries and films." group-title="Classic Tv",The Archive
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991310 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XAMR-CMS" tvg-id="xumo-99991354" tvg-logo="https://image.xumo.com/v1/channels/channel/99991354/168x168.png?type=color_onBlack" tvg-description="Classic American movies & TV shows starring the top American actors from the golden age of Hollywood - from World War II until the 1980s." group-title="Classic Tv",American Classics
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991354 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XMST3K-CMS" tvg-id="xumo-99991616" tvg-logo="https://image.xumo.com/v1/channels/channel/99991616/168x168.png?type=color_onBlack" tvg-description="Classic MST3K episodes from your favorite B-movie riffers!" group-title="Classic Tv",Mystery Science Theater 3000 (MST3K)
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991616 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XVOYD-CMS" tvg-id="xumo-99991382" tvg-logo="https://image.xumo.com/v1/channels/channel/99991382/168x168.png?type=color_onBlack" tvg-description="Top documentaries on science, history, nature, mystery and more, curated by award-winning filmmakers." group-title="History & Learning",MagellanTV Now
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991382 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+
+#EXTINF:-1 channel-id="XTRUH" tvg-id="xumo-99991650" tvg-logo="https://image.xumo.com/v1/channels/channel/99991650/168x168.png?type=color_onBlack" tvg-description="True History introduces you to the moments, places, and people that have shaped our modern world. Led by expert historians, you’ll travel the globe through time—from the fall of the Roman Empire to the rise of the Beatles!" group-title="History & Learning",True History Channel
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991650 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
+#EXTINF:-1 channel-id="XBNC-CMS" tvg-id="xumo-99991108" tvg-logo="https://image.xumo.com/v1/channels/channel/99991108/168x168.png?type=color_onBlack" tvg-description="TheGrio is Black culture amplified with a focus on news, entertainment, and lifestyle programming about Black audiences globally. TheGrio is empowerment, relevant, and unapologetic. " group-title="Pop Culture",theGRIO
+pipe:///usr/bin/ffmpeg -loglevel fatal -i http://172.16.1.2:7777/xumo/watch/99991108 -vcodec copy -acodec copy -metadata service_provider=STRING -metadata service_name=STRING -f mpegts -tune zerolatency pipe:1
+
 
