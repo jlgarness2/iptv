@@ -1,6 +1,5 @@
 #EXTM3U
-#EXTINFgroup-title="iptv" tvg-id="",30A Television Channel
-https://30a-tv.com/feeds/masters/30atv.m3u8
+
 #EXTINFgroup-title="iptv" tvg-id="",30A TV Classic Movies
 https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 #EXTINFgroup-title="iptv" tvg-id="AMCEast.us",AMC East (1080p)
@@ -19,24 +18,10 @@ http://31.220.41.88:8081/live/us-cinemax.stream/playlist.m3u8
 https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8
 #EXTINFgroup-title="iptv" tvg-id="",Cult Classic Movie Theater (1080p)
 https://app.viloud.tv/hls/channel/053140e08adc29e3eac61eb05ff12f51.m3u8
-#EXTINFgroup-title="iptv" tvg-id="Dateline247.us",Dateline 24/7
-https://dz59iptwz5rxs.cloudfront.net/live/master.m3u8
 #EXTINFgroup-title="iptv" tvg-id="DaystarTV.us",Daystar TV (720p)
 https://hls-live-media.cdn01.net/dvr/stream_37099_1.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EarthxTV.us",EarthxTV (720p)
-https://ov.ottera.tv/live/master.m3u8?channel=earth_et
-#EXTINFgroup-title="iptv" tvg-id="ElectricNow.us",Electric Now (1080p) [Not 24/7]
-https://elec-en.otteravision.com/elec/en/elec_en.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EntertainmentTonight.us",Entertainment Tonight (720p)
-https://cbsta49f-cbsta49f-ms.global.ssl.fastly.net/amagi7b98-AmagiMixible/master/amagi7b98-AmagiMixible.m3u8
-#EXTINFgroup-title="iptv" tvg-id="EternalLifeTVNetwork.us",Eternal Life TV Network (1080p)
-https://livecdn.live247stream.com/eternallife/tv/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="ExtremaTV.us",Extrema TV (720p)
-http://livestreamcdn.net:1935/ExtremaTV/ExtremaTV/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="FightSports.us",FIGHT SPORTS (1080p)
-https://shls-fight-sports-ak.akamaized.net/out/v1/ee7e6475b12e484bbfa5c31461ad4306/index.m3u8
-#EXTINFgroup-title="iptv" tvg-id="Fite.us",Fite (720p) [Not 24/7]
-https://cdn-cf.fite.tv/linear/fite247/playlist.m3u8
+
+
 #EXTINFgroup-title="iptv" tvg-id="FolkTV.us",Folk TV
 http://584b0aa350b92.streamlock.net:1935/folk-tv/myStream.sdp/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="FoxNewsChannel.us",Fox News Channel
@@ -45,36 +30,9 @@ http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
 https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINFgroup-title="iptv" tvg-id="FreeSpeechTV.us",Free Speech TV (720p)
 https://edge.fstv-live-linear-channel.top.comcast.net/Content/HLS_HLSv3/Live/channel(b168a609-19c1-2203-ae1d-6b9726f05e67)/index.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GalavisionEast.us",Galavisión East [Geo-blocked]
-https://unidfp-nlds159.global.ssl.fastly.net/nlds/univisionnow/galavision_east/as/live/galavision_east_hd_pc.m3u8?t1=
-#EXTINFgroup-title="iptv" tvg-id="GalavisionWest.us",Galavision West [Geo-blocked]
-https://unidfp-nlds159.global.ssl.fastly.net/nlds/univisionnow/galavision_west/as/live/galavision_west_hd_pc.m3u8?t1=
-#EXTINFgroup-title="iptv" tvg-id="GanjeHozourTV.us",Ganj e Hozour TV (720p)
-https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GlobalBuddhistNetwork.us",GBN Global Buddhist Network (1080p)
-https://github.com/BellezaEmporium/IPTV_Exception/raw/master/channels/us/gbnus.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GemShoppingNetwork.us",Gem Shopping Network (720p)
-https://amg01460-gemshoppingnetw-gem-ono-x662c.amagi.tv/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GenesisTelevision.us",Genesis TV (720p) [Not 24/7]
-http://201.144.184.98:1935/genesis/smil:television.smil/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GCNAmerica.us",Global Christian Network America (GCN) (720p)
-http://liveen24-manminglobal3.ktcdn.co.kr/liveen24/gcnus_1300k.stream/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GlobalFashionChannel.us",Global Fashion Channel (1080p)
-https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GlobalLinkVision.us",GLV
-https://38b3095.online-server.cloud/hls/live.m3u8
-#EXTINFgroup-title="iptv" tvg-id="Go2Travel.us",Go2Travel (1080p)
-https://go2thls.wns.live/hls/stream.m3u8
-#EXTINFgroup-title="iptv" tvg-id="",Golden Boy
-https://goldenboy.duckhunting.playout.vju.tv/DuckhuntingTV_GoldenBoy/main.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GoldenPanregional.mx",Golden TV (240p) [Not 24/7]
-https://rpn1.bozztv.com/36bay2/gusa-goldentv/mono.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GoodLife45.us",GoodLife 45 (720p) [Not 24/7]
-https://1-fss29-s0.streamhoster.com/lv_goodlife45f1/broadcast1/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GBNTV.us",Gospel Broadcasting Network (GBN) (1080p)
-https://cdn3.wowza.com/5/Wi9jakJPdFhPREFj/live/myStream/playlist.m3u8
-#EXTINFgroup-title="iptv" tvg-id="GospelTruthTV.us",Gospel Truth TV
-https://bstna.tulix.tv/live/bs_2m/index.m3u8
+
+
+
 #EXTINFgroup-title="iptv" tvg-id="",Grit Xtra
 https://scripps-gritxtra-1-us.vizio.wurl.tv/playlist.m3u8
 #EXTINFgroup-title="iptv" tvg-id="grvty.us",grvty (1080p)
